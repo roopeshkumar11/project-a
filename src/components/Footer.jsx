@@ -103,9 +103,11 @@ const Footer = () => {
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className="text-center border-t border-green-700 py-4 text-gray-300">
-                © 2026 FoxNut Store. All rights reserved.
+                className="text-center border-t border-green-700 py-4 text-gray-300"
+            >
+                © 2026 Ankit Kumar Verma. All rights reserved.
             </motion.div>
+
 
         </footer>
     );
