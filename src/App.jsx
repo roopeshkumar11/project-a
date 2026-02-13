@@ -25,7 +25,7 @@ import Cart from "./pages/Cart";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
-import Shop from "./pages/shop";
+import Shop from "./pages/Shop";
 import ProductDetails from "./pages/ProductDetails";
 
 
