@@ -47,13 +47,14 @@ const Hero = () => {
                                 Shop Now
                             </motion.button>
                         </Link>
-
-                        <motion.button
-                            whileHover={{ scale: 1.1 }}
-                            className="px-8 py-3 border-2 border-green-600 text-green-700 rounded-full"
-                        >
-                            Explore
-                        </motion.button>
+                        <Link to="/shop">
+                            <motion.button
+                                whileHover={{ scale: 1.1 }}
+                                className="px-8 py-3 border-2 border-green-600 text-green-700 rounded-full"
+                            >
+                                Explore
+                            </motion.button>
+                        </Link>
                     </motion.div>
                 </div>
 
